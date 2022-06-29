@@ -1,0 +1,161 @@
+/*Eléments principaux de la page*/
+
+body
+{
+	background:  azure;
+	background-repeat: no-repeat;
+	font-family: "Times New Roman", Arial, sans-serif;
+	color: #181818;
+}
+
+#bloc_page
+{
+	width: 900px;
+	margin: auto;
+}
+
+header h1
+{
+	font-weight: bold;
+	font-style: italic;
+	color: royalblue;
+}
+
+/*L'en-tête*/
+
+headeur
+{
+	display: flex;
+    justify-content: row;
+    align-items: flex-end;
+}
+
+#titre_principal
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+
+#ma_photo img
+{
+	width: 170px;
+	height: 200px;
+}
+
+#titre_principal h1
+{
+	font-size: 5em;
+	margin: 50px;
+}
+
+#corps
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: space-around;
+}
+
+#mes_raisons
+{
+	width: 350px;
+	height: 100%;
+	padding: 12px;
+	margin: 10px;
+}
+
+#mes_docs
+{
+	width: 350px;
+	height: 100%;
+	padding: 12px;
+	margin: 10px;
+}
+
+section a
+{
+	color: black;
+}
+
+section a:hover
+{
+	color: rgb(239, 35, 141);
+}
+
+section a:visited
+{
+	color: rgb(226, 35, 239);
+}
+
+/*mes liens */
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+	align-content: space-around;
+}
+
+nav li
+{
+	padding: 0 8px 80px 8px;	
+}
+
+nav a
+{
+	font-size: 1.3em;
+	color: #181818;
+	padding-bottom: 3px;
+}
+nav a:hover
+{
+	color: rgb(239, 35, 141);
+}
+
+nav a:visited
+{
+	color: rgb(226, 35, 239);
+}
+
+h2
+{
+	color: rgb(58, 235, 170);
+	text-decoration: underline;
+}
+
+h3
+{
+	color: rgb(58, 224, 229);
+	text-decoration: underline;
+}
+/* Pied de page*/
+
+#banniere_escalier
+{
+ 	margin-top: 10px;
+ 	height: 100px;
+ 	width: 85%;
+ 	border-radius: 5px;
+    background: url('escalier.jpg') no-repeat;
+    position: relative;
+    box-shadow: 10px 5px 4px darkgrey;
+    margin:0px 30px 0px 0px;
+}
+
+#banniere_texte
+{
+	position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    height: 20px;
+    padding: 0px 80px 25px 0px;
+    background-color: rgba(24,24,24,0.5);
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
